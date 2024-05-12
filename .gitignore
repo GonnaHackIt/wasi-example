@@ -1,0 +1,5 @@
+composed.wasm
+/validator/node_modules
+/validator/validator.wasm
+/*/cargo.lock
+/*/target

@@ -1,0 +1,23 @@
+package docs:validator@0.1.0;
+
+interface validate {
+    validate-email: func(email: string) -> bool;
+    validate-phone: func(phone: string) -> bool;
+}
+
+interface form {
+    validate: func(email: string, phone: string) -> bool;
+}
+
+world validator {
+    export validate;
+}
+
+world server {
+    import validate;
+    export form;
+}
+
+world app {
+    import form;
+}
