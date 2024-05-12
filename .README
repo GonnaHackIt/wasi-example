@@ -1,6 +1,7 @@
 # WASI Example
 
-Example using WASI component model. Showcasing scenario where Wasm component written in Rust (possibly some server) uses Wasm component written in JavaScript to validate data.
+Example using WASI component model. Showcasing scenario where Wasm component written in Rust (possibly some server) uses Wasm component written in JavaScript
+to validate data.
 
 # Running
 
